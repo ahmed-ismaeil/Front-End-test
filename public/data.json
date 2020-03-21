@@ -1,0 +1,168 @@
+{
+  "works" : [
+    {
+      "id"       : 1,
+      "active"   : true,
+      "img"      : "../images/char-1.png",
+      "title"    : "Mom's Discharge Plan",
+      "suptitle" : "Karen Becker",
+      "summary"  : "sed moills mi iaculis tincidutincidu",
+      "date"     : "Oct 12",
+      "msgs"     : "5"
+    },
+
+    {
+      "id"       : 2,
+      "active"   : true,
+      "img"      : "../images/char-2.png",
+      "title"    : "Mom’s Diet",
+      "suptitle" : "Karen Becker",
+      "summary"  : "sed moills mi iaculis tincidutincidu",
+      "date"     : "Oct 11",
+      "msgs"     : "4"
+    },
+
+    {
+      "id"       : 3,
+      "active"   : false,
+      "img"      : "../images/char-3.png",
+      "title"    : "Anthony Baer",
+      "suptitle" : null,
+      "summary"  : "sed moills mi iaculis tincidutincidu",
+      "date"     : "Oct 10",
+      "msgs"     : "4"
+    },
+
+    {
+      "id"       : 4,
+      "active"   : true,
+      "img"      : "../images/char-4.png",
+      "title"    : "Easter Weekend",
+      "suptitle" : "Love One",
+      "summary"  : "sed moills mi iaculis tincidutincidu",
+      "date"     : "Oct 9",
+      "msgs"     : "4"
+    },
+
+    {
+      "id"       : 5,
+      "active"   : false,
+      "img"      : "../images/char-5.png",
+      "title"    : "Stephanie Kim",
+      "suptitle" : null,
+      "summary"  : "sed moills mi iaculis tincidutincidu",
+      "date"     : "Oct 9",
+      "msgs"     : "0"
+    },
+
+    {
+      "id"       : 6,
+      "active"   : false,
+      "img"      : "../images/char-1.png",
+      "title"    : "Spring break schedule",
+      "suptitle" : "Love One",
+      "summary"  : "sed moills mi iaculis tincidutincidu",
+      "date"     : "Oct 6",
+      "msgs"     : "0"
+    },
+
+    {
+      "id"       : 7,
+      "active"   : false,
+      "img"      : "../images/char-2.png",
+      "title"    : "David Williams",
+      "suptitle" : null,
+      "summary"  : "sed moills mi iaculis tincidutincidu",
+      "date"     : "Oct 3",
+      "msgs"     : "0"
+    },
+
+    {
+      "id"       : 8,
+      "active"   : false,
+      "img"      : "../images/char-3.png",
+      "title"    : "Home Treatment",
+      "suptitle" : "Love One",
+      "summary"  : "sed moills mi iaculis tincidutincidu",
+      "date"     : "Oct 2",
+      "msgs"     : "0"
+    },
+
+    {
+      "id"       : 9,
+      "active"   : false,
+      "img"      : "../images/char-4.png",
+      "title"    : "Mom's Discharge Plan",
+      "suptitle" : "Karen Becker",
+      "summary"  : "sed moills mi iaculis tincidutincidu",
+      "date"     : "Oct 1",
+      "msgs"     : "0"
+    },
+
+    {
+      "id"       : 10,
+      "active"   : false,
+      "img"      : "../images/char-5.png",
+      "title"    : "Mom's Discharge Plan",
+      "suptitle" : "Karen Becker",
+      "summary"  : "sed moills mi iaculis tincidutincidu",
+      "date"     : "Oct 1",
+      "msgs"     : "0"
+    },
+
+    {
+      "id"       : 11,
+      "active"   : false,
+      "img"      : "../images/char-1.png",
+      "title"    : "Spring break schedule",
+      "suptitle" : "Love One",
+      "summary"  : "sed moills mi iaculis tincidutincidu",
+      "date"     : "Oct 6",
+      "msgs"     : "0"
+    },
+
+    {
+      "id"       : 12,
+      "active"   : false,
+      "img"      : "../images/char-2.png",
+      "title"    : "David Williams",
+      "suptitle" : null,
+      "summary"  : "sed moills mi iaculis tincidutincidu",
+      "date"     : "Oct 3",
+      "msgs"     : "0"
+    },
+
+    {
+      "id"       : 13,
+      "active"   : false,
+      "img"      : "../images/char-3.png",
+      "title"    : "Home Treatment",
+      "suptitle" : "Love One",
+      "summary"  : "sed moills mi iaculis tincidutincidu",
+      "date"     : "Oct 2",
+      "msgs"     : "0"
+    },
+
+    {
+      "id"       : 14,
+      "active"   : false,
+      "img"      : "../images/char-4.png",
+      "title"    : "Mom's Discharge Plan",
+      "suptitle" : "Karen Becker",
+      "summary"  : "sed moills mi iaculis tincidutincidu",
+      "date"     : "Oct 1",
+      "msgs"     : "0"
+    },
+
+    {
+      "id"       : 15,
+      "active"   : false,
+      "img"      : "../images/char-5.png",
+      "title"    : "Mom's Discharge Plan",
+      "suptitle" : "Karen Becker",
+      "summary"  : "sed moills mi iaculis tincidutincidu",
+      "date"     : "Oct 1",
+      "msgs"     : "0"
+    }
+  ]
+}

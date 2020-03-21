@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  font-family: "gotham";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+@font-face {
+  font-family: "gotham";
+  src: url('./Gotham-Book font/Gotham-Book.woff') format('woff'),
+       url('./Gotham-Book font/Gotham-Book.woff2') format('woff2'),
+       url('./Gotham-Book font/Gotham-Book.ttf') format('truetype');
+  font-weight: normal;
+}
