@@ -61,9 +61,10 @@ export const Date = styled.p`
 `
 
 export const Period = styled.p`
-  font-size : 12px;
-  color     : #546566;
-  margin    : 0;
+  font-size  : 12px;
+  color      : #546566;
+  margin     : 0;
+  font-style : italic;
 `;
 
 export const Message = styled.p`

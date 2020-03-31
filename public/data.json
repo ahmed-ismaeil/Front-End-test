@@ -164,5 +164,40 @@
       "date"     : "Oct 1",
       "msgs"     : "0"
     }
+  ],
+
+  "message" : [
+    {
+      "id"      : 1,
+      "action"  : "receive",
+      "img"     : "../images/Schar-2.png",
+      "content" : "I moved Karen’s knitting kit from the study upstairs to the the living room.",
+      "name"    : "sk",
+      "time"    : "11:58a"
+    },
+
+    {
+      "id"      : 2,
+      "action"  : "send",
+      "img"     : "../images/Schar-1.png",
+      "content" : "That’s a good call. I’ll be stopping by later to have dinner with her. Pizza for everyone! Join us. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a lorem enim. Praesent accumsan feugiat lorem et finibus. Vestibulum scelerisque id eros dignissim tincidunt. Morbi id tortor egestas, feugiat massa viverra, posuere nisl.",
+      "name"    : "me",
+      "time"    : "1:45p"
+    }
+  ],
+
+  "bigmessage" : [
+    {
+      "id"      : "1",
+      "title"   : "Daily grooming assistance",
+      "img1"    : "../images/clock.png",
+      "img2"    : "../images/note.png",
+      "date"    : "Dec 1",
+      "period"  : "Daily",
+      "summary" : "assist with daily grooming activities such as bathing, brushing teeth and hair, as well as dressing",
+      "name"    : "me",
+      "time"    : "1:45p",
+      "charImg" : "../images/Schar-1.png"
+    }
   ]
 }

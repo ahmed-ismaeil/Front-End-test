@@ -20,7 +20,7 @@ class ChatListItem extends Component {
       return (
         <div key={workItem.id}>
           <ListItem active={workItem.active}>
-            <div className="img">
+            <div>
               <Image src={workItem.img} alt="" active={workItem.active} />
             </div>
             <Description>
