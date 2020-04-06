@@ -1,49 +1,44 @@
-import React, { Component } from "react";
-import { ListItemContainer, ListItem, Image, Description, Info, Title, SupTitle,
-         Summary, Right, Date, DivMsgs, Msgs, Hr } from "./style.js";
+import React, { useState, useEffect } from "react";
+import { ListItemContainer, ListItem, Image, Description, Info, Title,
+         SupTitle, Summary, Right, Date, DivMsgs, Msgs, Hr } from "./style.js";
 import axios from "axios";
 
-class ChatListItem extends Component {
-  state = {
-    works: []
-  };
+const ChatListItem = () => {
+  const [dataItem, setDataItem] = useState([]);
 
-  componentDidMount() {
-    axios.get("data.json").then(res => {
-      this.setState({ works: res.data.works });
+  useEffect(() => {
+    axios.get("data.json").then((res) => {
+      setDataItem(res.data.dataItem);
     });
-  }
+  }, []);
 
-  render() {
-    const { works } = this.state;
-    const workList = works.map(workItem => {
-      return (
-        <div key={workItem.id}>
-          <ListItem active={workItem.active}>
-            <div>
-              <Image src={workItem.img} alt="" active={workItem.active} />
-            </div>
-            <Description>
-              <Info>
-                <Title>{workItem.title}</Title>
-                <SupTitle>{workItem.suptitle}</SupTitle>
-                <Summary>{workItem.summary}</Summary>
-              </Info>
-              <Right>
-                <Date>{workItem.date}</Date>
-                <DivMsgs active={workItem.active}>
-                  <Msgs>{workItem.msgs}</Msgs>
-                </DivMsgs>
-              </Right>
-            </Description>
-          </ListItem>
-          <Hr />
-        </div>
-      );
-    });
+  const data = dataItem.map((dataItem) => {
+    return (
+      <div key={dataItem.id}>
+        <ListItem active={dataItem.active}>
+          <div>
+            <Image src={dataItem.img} alt="" active={dataItem.active} />
+          </div>
+          <Description>
+            <Info>
+              <Title>{dataItem.title}</Title>
+              <SupTitle>{dataItem.suptitle}</SupTitle>
+              <Summary>{dataItem.summary}</Summary>
+            </Info>
+            <Right>
+              <Date>{dataItem.date}</Date>
+              <DivMsgs active={dataItem.active}>
+                <Msgs>{dataItem.msgs}</Msgs>
+              </DivMsgs>
+            </Right>
+          </Description>
+        </ListItem>
+        <Hr />
+      </div>
+    );
+  });
 
-    return <ListItemContainer>{workList}</ListItemContainer>;
-  }
-}
+  return <ListItemContainer>{data}</ListItemContainer>;
+};
 
 export default ChatListItem;

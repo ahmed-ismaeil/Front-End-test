@@ -14,13 +14,13 @@ function ChatRoom() {
       <ChatRoomHead />
 
       <ChatRoomSupitle />
-
+      
       <ChatMessageList>
-        <MsgContent />
-        
-        <ChatRoomDate />
-
-        <MyBigMsg />
+        <div>
+          <MyBigMsg/>
+          <ChatRoomDate />
+          <MsgContent />
+        </div>
       </ChatMessageList>
 
       <ChatRoomFooter />
