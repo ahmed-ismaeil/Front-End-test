@@ -5,8 +5,8 @@ export const List = styled.div`
   flex-direction : column;
   width          : 350px;
 
-  @media (max-width: 700px) {
-    display: none;
+  @media (max-width : 700px) {
+    display : none;
   }
 `;
 

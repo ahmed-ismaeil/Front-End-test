@@ -1,6 +1,7 @@
-import React from "react";
-import { List, ListHead, Title } from './style.js';
+import React        from "react";
 import ChatListItem from './../ChatList-item/index.js';
+import { List, 
+  ListHead, Title } from './style.js';
 
 function ChatList() {
   return (
